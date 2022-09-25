@@ -46,9 +46,11 @@
 - 5.3.1 로컬 저장소
     - (깃허브에 new repository생성 후)   
     ```git init``` 명령어로 깃을 초기화한 다음저장소의 소개페이지 파일을 생성합니다.  
-    ```$ echo "# gitstudy" >> README.md -- 파일생성```  
-    ```$ git add README.md```  
-    ```$ git commit -m "first commit"```
+    ```
+    $ echo "# gitstudy" >> README.md -- 파일생성  
+    $ git add README.md 
+    $ git commit -m "first commit"
+    ```
    
 
 - 5.3.2 프로토콜
@@ -56,7 +58,7 @@
   - Local(로컬)  
   로컬 컴퓨터에 원격 저장소를 생성하는것을 의미합니다.자신의 컴퓨터를 NFS(Network File System)등 서버로 이용할때 편리합니다. 로컬저장소를 서버로 이용할때는 폴더경로만 입력합니다.   
   ```$ git remote add 원격저장소별칭 폴더경로```   
-  로컬은 간단한 원격서버 구축이 가능하고 빠른 동작이 가능하나 모든 자료가 자신의 컴퓨터에 집중되는 위험이 있습니다.  ]
+  로컬은 간단한 원격서버 구축이 가능하고 빠른 동작이 가능하나 모든 자료가 자신의 컴퓨터에 집중되는 위험이 있습니다.
   - HTTP  
   서버에 접속하려면 로그인 절차가 필요합니다. HTTP는 익명 혹은 계정을 이용하여 처리할 수 있습니다.
   - SSH  
