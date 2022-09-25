@@ -5,8 +5,7 @@
 # Open Source SoftWare 
 > 2022 OSS 수요일 오전반 6조
 
-![image]()
-
+<center><img src="git 교과서" width="500"></center>
 
 
 ## 5장 서버
