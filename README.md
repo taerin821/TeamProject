@@ -47,9 +47,9 @@
 
     - (깃허브에 new repository생성 후)   
     ```$ git init``` 명령어로 깃을 초기화한 다음저장소의 소개페이지 파일을 생성합니다.  
- ```$ echo "# gitstudy" >> README.md  -- 파일생성```  
-   ```$ git add README.md```    
-    ```$ git commit -m "first commit"```
+   ``$ echo "# gitstudy" >> README.md  -- 파일생성  
+   $ git add README.md     
+   $ git commit -m "first commit"``
 
 - 5.3.2 프로토콜
   - 서버와 통신하려면 프로토콜을 사용해야 합니다. 깃은 기본적으로 Local, HTTP, SSH, Git 네 종류의 전송 방식을 지원합니다.
