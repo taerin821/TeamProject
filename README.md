@@ -75,13 +75,15 @@
     - origin : 대표적으로 사용하는 별칭, 목적에 따라 다른 이름도 가능
 
 - 5.3.5 원격 저장소에 연결
-    - ```add``` 옵션을 사용하여 로컬과 원격 저장소를 연결할 수 있습니다.  
-    ```$ git remote add 원격저장소별칭 원격저장소URL```   
-    ```$ git remote add origin https://github.com/deveq/gitstudy.git```  
-    ```$ git remote -v```  
-    ```origin https://github.com/deveq/gitstudy.git (fetch)```  
-    ```origin https://github.com/deveq/gitstudy.git (push)```  
-    push는 서버로 전송하는 동작, fetch는 서버에서 가져오는 동작을 의미합니다.
+    - ```add``` 옵션을 사용하여 로컬과 원격 저장소를 연결할 수 있습니다.    
+    ```
+    $ git remote add 원격저장소별칭 원격저장소URL
+    $ git remote add origin https://github.com/deveq/gitstudy.git
+    $ git remote -v
+    origin https://github.com/deveq/gitstudy.git (fetch) 
+    origin https://github.com/deveq/gitstudy.git (push)
+    ```
+    push는 서버로 전송하는 동작, fetch는 서버에서 가져오는 동작을 의미합니다.    
 
 - 5.3.6 소스트리에서 원격 브랜치      
 
@@ -93,13 +95,18 @@
     로컬 저장소와 서버 저장소를 구분하여 표시하므로 서로 동기화한 시점을 판별할 수 있습니다.
 
 - 5.3.7 별칭 이름 변경과 정보
-    - ```rename``` 옵션을 이용해 별칭을 변경할 수 있습니다.  
+    - ```rename``` 옵션을 이용해 별칭을 변경할 수 있습니다.    
+
     ``` 
     --- 별칭 변경  
     $ git remote rename 변경전 변경후 
     --- 원격 저장소의 상세 정보 
     $ git remote show 별칭
     ```
+
+- 5.3.8 원격 저장소 삭제
+    - 로컬 저장소는 복수의 원격저장소와 연결가능합니다. 깃을 하다보면 풀 리퀘스트(pull request), 테스트 등의 목적으로 임시 등록된 원격 저장소들도 있습니다. 등록된 원격저장소는 ```rm``` 옵션으로 삭제할 수 있습니다.  
+    ```$ git remote rm 별칭```
 
 ## 서버 전송
 
