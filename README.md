@@ -11,7 +11,7 @@
   
 <center><img src="git 교과서.jfif" width="500"></center>
 
-실험
+
 
 ## 5장 서버
 1. [서버 저장소](#서버-저장소)
