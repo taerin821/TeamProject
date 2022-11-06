@@ -97,7 +97,7 @@
 
 - 5.3.6 소스트리에서 원격 브랜치      
 
-    ![image](./5.3.6.png)  
+    ![image](./image/5.3.6.png)  
 
     -master : 현재 로컬 저장소 
     origin/master(별칭/브랜치) : 원격저장소의 브랜치   
