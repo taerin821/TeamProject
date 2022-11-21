@@ -6,10 +6,11 @@
   
 | 번호 | 과제 내용 | Markdown |
 | ---- | -------- | -------- |
-| 세부 팀과제 1 | 교재(git 교과서) 5장 정리 | [git 교과서 5장 정리](./git%20%EA%B5%90%EA%B3%BC%EC%84%9C%205%EC%9E%A5%20%EC%A0%95%EB%A6%AC.md) |
-| 세부 팀과제 2 | 오픈소스소프트웨어 개요와 역사 |  [오픈소스소프트웨어 개요와 역사](./%EA%B5%90%EA%B3%BC%EC%84%9C6.md) |
-| 세부 팀과제 3 | 교재(git 교과서) 6장 정리 | [git 교과서 6장 정리](./git%20%EA%B5%90%EA%B3%BC%EC%84%9C%206%EC%9E%A5%20%EC%A0%95%EB%A6%AC.md) |
-| 세부 팀과제 4 | 교재(git 교과서) 8장 정리 | [git 교과서 8장 정리](./git%20%EA%B5%90%EA%B3%BC%EC%84%9C%208%EC%9E%A5%20%EC%A0%95%EB%A6%AC.md) |
+| 세부 팀과제 1 | 교재(git 교과서) 5장 정리 | [git 교과서 5장 정리](https://github.com/robotos1/TeamProject/blob/bda0486fa702f531276ec3980eba956396618c63/git%20%EA%B5%90%EA%B3%BC%EC%84%9C%205%EC%9E%A5%20%EC%A0%95%EB%A6%AC.md) |
+| 세부 팀과제 2 | 오픈소스소프트웨어 개요와 역사 |  [오픈소스소프트웨어 개요와 역사](https://github.com/robotos1/TeamProject/blob/bda0486fa702f531276ec3980eba956396618c63/history.md) |
+| 세부 팀과제 3 | 교재(git 교과서) 6장 정리 | [git 교과서 6장 정리](https://github.com/robotos1/TeamProject/blob/bda0486fa702f531276ec3980eba956396618c63/git%20%EA%B5%90%EA%B3%BC%EC%84%9C%206%EC%9E%A5%20%EC%A0%95%EB%A6%AC.md) |
+| 세부 팀과제 4 | 교재(git 교과서) 8장 정리 | [git 교과서 8장 정리](https://github.com/robotos1/TeamProject/blob/bda0486fa702f531276ec3980eba956396618c63/git%20%EA%B5%90%EA%B3%BC%EC%84%9C%208%EC%9E%A5%20%EC%A0%95%EB%A6%AC.md) |  
+| 세부 팀과제 5 | 교재(git 교과서) 9장 정리 | [git 교과서 9장 정리](https://github.com/robotos1/TeamProject/blob/bda0486fa702f531276ec3980eba956396618c63/git%20%EA%B5%90%EA%B3%BC%EC%84%9C%209%EC%9E%A5%20%EC%A0%95%EB%A6%AC.md) | 
 
 ---
 ## 💻 팀원 GitHub   
