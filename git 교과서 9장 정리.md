@@ -71,8 +71,8 @@
         직전의 상황입니다.
 
     - soft 옵션은 단순히 HEAD 위치를 이동하는 역할만 합니다. 마치 직전의 커밋 단계로 체크아웃하라는 명령과 유사합니다. reset --soft 명령어와 체크아웃 명령어는 HEAD 위치를 이동한다는 점에서는 동일하지만, 브랜치를 변경하지 않는다는 점에서 차이가 있습니다.
-    <center><img src="reset-soft.png" width=""></center>
-    <center><img src="reset-soft이후diff로확인.png" width=""></center>
+    <center><img src="image/reset-soft.png" width=""></center>
+    <center><img src="image/reset-soft이후diff로확인.png" width=""></center>
 
 - 9.2.4 mixed 옵션
     - reset 명령어의 기본값은 mixed 옵션입니다.
@@ -83,10 +83,10 @@
     ```
       $ git reset 커밋ID 생략 가능
     ```
-    <center><img src="reset-mixed.png" width=""></center>
+    <center><img src="image/reset-mixed.png" width=""></center>
     - mixed 옵션은 soft 옵션과 달리 리셋한 후 스테이지 상태까지 복원하지 않습니다.
     때문에 Unstaged 상태가 되어 메시지가 빨간색으로 표시됩니다. 
-    <center><img src="reset-mixed-status.png" width=""></center>
+    <center><img src="image/reset-mixed-status.png" width=""></center>
     - 스테이지 영역을 같이 복사하지 않기 때문에 수정된 파일은 스테이지 영역이 아닌 워킹 디렉터리 안에 남아 있습니다. 따라서 mixed 옵션을 사용하여 리셋한 후 다시 커밋하려면 반드시 add 명령어를 실행해야 합니다.
 
 - 9.2.5 hard 옵션
@@ -94,7 +94,7 @@
     
     - 이에 반해  hard 옵션은 리셋되는 복귀 시점의 커밋 상태와 해당 커밋의 워킹 디렉터리까지 모두 되돌립니다. 즉, reset 
      --hard 명령어를 사용한 커밋 이후의 모든 내용은 삭제됩니다. 
-     <center><img src="reset--hard.png" width=""></center>   
+     <center><img src="image/reset--hard.png" width=""></center>   
        
 
 - 9.2.6 소스트리
@@ -102,9 +102,9 @@
     - 리셋하려면 복귀 시점의 커밋 해시 값이 필요합니다. 하지만 매번 로그를 검색하여 리셋하는 것은 불편합니다. 소스트리를 이용하면 더 쉽게 리셋할 수 있습니다.
     
     - 먼저 소스트리의 커밋 그래프에서 복귀할 커밋을 선택합니다. 그리고 마우스 오른쪽 버튼을 눌러 이 커밋까지 현재 브랜치를 초기화 메뉴를 선택합니다.
-    <center><img src="soucetree1.png" width="250"></center>  
-    <center><img src="soucetree2.png" width="300"></center> 
-    <center><img src="soucetree3.png" width="300"></center> 
+    <center><img src="image/soucetree1.png" width="250"></center>  
+    <center><img src="image/soucetree2.png" width="300"></center> 
+    <center><img src="image/soucetree3.png" width="300"></center> 
 
 - 9.2.7 커밋 합치기
     - 앞에서는 리베이스 병합의 -i 옵션을 사용하면 여러 커밋을 하나로 합치는 동작을 수행할 수 있었습니다. 또 단일 커밋은 커밋 명령어의 –amend 옵션으로 커밋을 수정할 수 있었습니다. 리셋의 동작 원리를 이해하고 있다면, 커밋도 수정할 수 있습니다. 리셋의 soft 옵션은 HEAD를 해당 커밋으로 이동합니다. 그리고 원본 내용은 그대로 워킹 디렉터리에 남겨 둡니다.    
@@ -150,7 +150,7 @@
     ```
     $ git revert HEAD
     ```
-    <center><img src="revertHEAD.png" width=""></center> 
+    <center><img src="image/revertHEAD.png" width=""></center> 
 
 - 9.3.2 리버트 지정
   - 리버트는 한 번에 커밋 하나만 취소할 수 있습니다. 따라서 여러 커밋을 리버트하려면 최신 커밋부터 순차적으로 취소해야 합니다.
@@ -165,8 +165,8 @@
 
 - 9.3.3 소스트리에서 리버트
   - 소스트리에서 리버트하는 방법은 간단합니다. 해당 커밋을 선택한 후 마우스 오른쪽 버튼을 누릅니다. 그리고 커밋 되돌리기 메뉴를 선택합니다.
-  <center><img src="soucetree-1.png" width="250"></center>
-  <center><img src="soucetree-2.png" width="300"></center>
+  <center><img src="image/soucetree-1.png" width="250"></center>
+  <center><img src="image/soucetree-2.png" width="300"></center>
 
 - 9.3.4 병합 취소
   - 리버트를 이용하여 병합한 커밋을 취소할 수 있습니다. 리셋은 방금 전 실행한 병합만 삭제합니다. 하지만 리버트는 시간이 지난 후에도 과거의 병합을 선택하여 취소할 수 있습니다.
