@@ -11,7 +11,7 @@
 | 세부 팀과제 3 | 교재(git 교과서) 6장 정리 | [git 교과서 6장 정리](https://github.com/robotos1/TeamProject/blob/bda0486fa702f531276ec3980eba956396618c63/git%20%EA%B5%90%EA%B3%BC%EC%84%9C%206%EC%9E%A5%20%EC%A0%95%EB%A6%AC.md) |
 | 세부 팀과제 4 | 교재(git 교과서) 8장 정리 | [git 교과서 8장 정리](https://github.com/robotos1/TeamProject/blob/bda0486fa702f531276ec3980eba956396618c63/git%20%EA%B5%90%EA%B3%BC%EC%84%9C%208%EC%9E%A5%20%EC%A0%95%EB%A6%AC.md) |  
 | 세부 팀과제 5 | 교재(git 교과서) 9장 정리 | [git 교과서 9장 정리](https://github.com/robotos1/TeamProject/blob/bda0486fa702f531276ec3980eba956396618c63/git%20%EA%B5%90%EA%B3%BC%EC%84%9C%209%EC%9E%A5%20%EC%A0%95%EB%A6%AC.md) | 
-| 세부 팀과제 6 | 과제 정리 | [git 과제 정리](https://github.com/robotos1/TeamProject/blob/main/%ED%8C%80%20%EA%B3%BC%EC%A0%9C.md) |
+| 세부 팀과제 6 | 내용 정리 및 사용 평가 | [git 내용 정리 및 사용 평가](https://github.com/robotos1/TeamProject/blob/main/%ED%8C%80%20%EA%B3%BC%EC%A0%9C.md) |
 
 ---
 ## 💻 팀원 GitHub   
